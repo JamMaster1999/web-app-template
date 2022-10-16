@@ -1,0 +1,26 @@
+{
+  "name": "web-app-project-template",
+  "version": "1.0.0",
+  "description": "the template for webflow frontend",
+  "main": "gulpFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamMaster1999/web-app-template.git"
+  },
+  "author": "sina azizi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamMaster1999/web-app-template/issues"
+  },
+  "homepage": "https://github.com/JamMaster1999/web-app-template#readme",
+  "devDependencies": {
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clipboard": "^0.1.3",
+    "gulp-concat": "^2.6.1",
+    "http-server": "^14.1.1"
+  }
+}
