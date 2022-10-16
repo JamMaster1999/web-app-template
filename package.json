@@ -2,6 +2,7 @@
   "name": "web-app-project-template",
   "version": "1.0.0",
   "description": "the template for webflow frontend",
+  "type": "module",
   "main": "gulpFile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

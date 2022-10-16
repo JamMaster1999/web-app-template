@@ -29,10 +29,10 @@ gulp.task('cleanProject', function () {
 
 
 
-gulp.task('run', gulp.series('test', 'annotator'));
+gulp.task('run', gulp.series('test', 'project'));
 
 gulp.task('watch', function () {
-    gulp.watch('./src/annotator/**/*.js', gulp.series('cleanProject', 'project'));
+    gulp.watch('./src/project/**/*.js', gulp.series('cleanProject', 'project'));
     gulp.watch('./src/test/**/*.js', gulp.series('cleanTest', 'test'));
 })
 
